@@ -1,6 +1,6 @@
 package com.lubinskiy.lesson15_16.animals
 
-class Bird(name: String) : AnimalChordate(name), Fly, Swim {
+class Bird(name: String) : AnimalChordate(name), Fly {
     private val haveWings = true
 
     override fun live() {
@@ -13,13 +13,10 @@ class Bird(name: String) : AnimalChordate(name), Fly, Swim {
 
     override fun info() {
         super.info()
+        fly()
     }
 
     override fun fly() {
         println("$name can fly.")
-    }
-
-    override fun swim() {
-        println("$name can swim.")
     }
 }

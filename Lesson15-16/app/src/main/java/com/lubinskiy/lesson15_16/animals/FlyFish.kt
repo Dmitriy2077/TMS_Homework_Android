@@ -1,6 +1,6 @@
-package com.lubinskiy.lesson15_16.animals
+package com.lubinskiy.lesson15_16.animals;
 
-class Fish(name: String) : AnimalChordate(name), Swim {
+class FlyFish(name: String) : AnimalChordate(name), Swim, Fly {
     val haveGills = true
 
     override fun live() {
@@ -14,9 +14,14 @@ class Fish(name: String) : AnimalChordate(name), Swim {
     override fun info() {
         super.info()
         swim()
+        fly()
     }
 
     override fun swim() {
         println("$name can swim.")
+    }
+
+    override fun fly() {
+        println("$name can fly a little.")
     }
 }
