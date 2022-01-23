@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lesson15–16</string>
+    <string name="empty"/>
+
+    <string name="info_main">Отвечать будет …</string>
+    <string name="choose">Choose</string>
+    <string name="settings">Settings</string>
+    <string name="nothing">Ничего не выбрано, зайдите в Settings</string>
+
+    <string name="info_settings">Выберите присутствующих</string>
+
+    <string name="alex_i">Александр И.</string>
+    <string name="alex_k">Александр К.</string>
+    <string name="andrey">Andrey</string>
+    <string name="anna">Anna</string>
+    <string name="anton">Anton</string>
+    <string name="daria">Daria</string>
+    <string name="dimka">Дмитрий</string>
+    <string name="egor">Егор</string>
+    <string name="mary">Мэри</string>
+    <string name="n_k">N. K.</string>
+    <string name="nastya">Настя</string>
+    <string name="nat">Natasha</string>
+    <string name="stas">Стас</string>
+
+    <string name="save">Save</string>
+</resources>
